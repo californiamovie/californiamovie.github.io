@@ -3,19 +3,19 @@
 #2 = 79CDC0
 */
 a {
-	color: #35A49C;
+	color: #d0581c;
 }
 a:hover {
-	color: #79CDC0;
+	color: #d0581c;
 }
 
 /* menu */
 .nav>li>a:hover {
-	color: #79CDC0;
+	color: #d0581c;
 }
 
 .navbar .navbar-nav > .active > a {
-	color: #79CDC0;
+	color: #d0581c;
 }
 
 /* flexslider */

@@ -154,6 +154,14 @@ a:hover {
 	color: #fff;
 }
 
+.color-orange {
+	color: #d0581c;
+}
+
+.color-yellow {
+	color: #ffff00;
+}
+
 .theme-bg {
 	background-color: #ff7701 !important;
 }
@@ -353,13 +361,17 @@ section.section {
 ============================= */
 
 #parallax1{	
-	background-image: url(../img/parallax/background.jpg);
+	background-image: url(../img/parallax/background.png);
 }
 #parallax2{	
-	background-image: url(../img/parallax/background.jpg);
+	background-image: url(../img/parallax/yosemite.jpg);
 }
 #parallax3{	
 	background-image: url(../img/parallax/img3.jpg);
+}
+
+#parallax4{	
+	background-image: url(../img/parallax/sierra-foothills.jpg);
 }
 /*===========================
   --- Header & menu ----
@@ -392,7 +404,7 @@ section.section {
 	height: 100%;
 	line-height: 100%;
 	vertical-align: middle;
-	color: #d0581c;
+	color: #fff;
 	font-weight: 700;
 	font-size: 13px;
 	letter-spacing: .1em;
