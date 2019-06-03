@@ -32,14 +32,14 @@ body {
 
 p {
 	font-size: 20px;
-	color: #d0581c;
+	color: #fff;
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Lato', sans-serif;
 }
 h1, h2, h3, h5, h6 {
-	color:#fff;
+	color:#d0581c;
 }
 
 h4 {
@@ -419,9 +419,14 @@ section.section {
 }
 
 .navbar-nav {
+	/*
 	float: right;
 	margin-bottom: 0;
 	padding-bottom:0;	
+	*/
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
 .navbar .navbar-nav > .active > a {
@@ -472,10 +477,11 @@ section.featured {
 }
 
 section.featured h2.slogan {
-	color: #fff;
+	color: #d0581c;
 	font-size: 48px;
 	font-weight: 900;
 }
+
   
  /* inner heading */
 section.featured.inner {
@@ -953,7 +959,7 @@ ul.footer-menu li {
 a.scrollup{
 	height:32px;
 	width:32px;
-	color:#fff;
+	color:#000;
 	font-size:18px;
 	line-height:32px;
 	text-align:center;
@@ -966,7 +972,7 @@ a.scrollup{
 }
 a.scrollup:hover{
 	opacity:1;
-	color:#fff;
+	color:#000;
 }
 
 /*===========================
