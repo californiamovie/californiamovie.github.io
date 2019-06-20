@@ -482,6 +482,11 @@ section.featured h2.slogan {
 	font-weight: 900;
 }
 
+section.featured p.slogan {
+	color: #d0581c;
+	font-size: 48px;
+	font-weight: 900;
+}
   
  /* inner heading */
 section.featured.inner {
