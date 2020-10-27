@@ -248,7 +248,7 @@ body {
   border-color: #ff3a46 !important;
 }
 .btn-danger:hover {
-  background-color: lighte(#ff3a46, 10%) !important;
+  background-color: #ff6d76 !important;
   border-color: #ff0716 !important;
 }
 .btn-white,
